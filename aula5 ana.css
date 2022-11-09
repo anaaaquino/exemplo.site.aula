@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter&family=Oswald&family=Silkscreen&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: "bitter", sans-serif;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background-color: black;
+}
+
+.form-box {
+	background-color: rgba(71, 5, 9, 0.603);
+	padding: 30px 40px;
+	width: 50%;
+}
+
+.form-box h2 {
+	font-size: 30px;
+	color: antiquewhite;
+}
+
+form .input-group {
+	margin-bottom: 15px;
+}
+
+form .input-group label {
+	color: gray;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 5px;
+}
+form .input-group input {
+	width: 98%;
+	height: 40px;
+	background-color: rgb(161, 170, 187);
+	border-radius: 20px;
+	border: 1px black;
+	padding: 1px;
+}
+
+form .input-group button {
+	width: 50%;
+	height: 30px;
+	background-color: black;
+	border-radius: 20px;
+	border: grey;
+	margin-top: 15px;
+	color: blanchedalmond;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.img-box {
+	width: 17%;
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}
+p {
+    color: white;
+    padding: 15px;
+}
+p a {
+    text-decoration: none;
+    color: red;
+}
